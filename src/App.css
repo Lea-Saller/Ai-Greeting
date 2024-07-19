@@ -1,0 +1,83 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(187, 144, 180);
+  color: rgb(62, 12, 12);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background-color: rgb(93, 22, 79);
+  color: black;
+  border: 2px solid rgb(93, 22, 79);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: rgb(93, 22, 79);
+}
+
+.greeting-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.selected-options {
+  margin-top: 20px;
+}
+
+.selected-options ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-options ul li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.selected-options ul li:hover {
+  text-decoration: underline;
+}
+.button-group {
+  display: flex;
+  justify-content: space-around; /* רווח קטן יותר בין הכפתורים */
+  margin-top: 20px; /* מרווח שמעל לכפתורים */
+}
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(0, 0, 0 );
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* עיצוב כאשר האפשרויות ב-select פתוחות */
+/* select:focus {
+  outline: none;
+  border-color: gold;
+  box-shadow: 0 0 5px gold;
+} */
+
+
+
+
